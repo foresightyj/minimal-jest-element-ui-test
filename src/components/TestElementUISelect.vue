@@ -13,19 +13,22 @@ import { Button, Select, Option } from "element-ui";
 export default Vue.extend({
   components: {
     [Select.name]: Select,
-    [Option.name]: Option
+    [Option.name]: Option,
   },
   data() {
     return {
-      options: [{
-        value: '选项1',
-        label: '黄金糕'
-      }, {
-        value: '选项2',
-        label: '双皮奶'
-      }],
-      value: ''
+      options: [
+        {
+          value: "选项1",
+          label: "黄金糕"
+        },
+        {
+          value: "选项2",
+          label: "双皮奶"
+        }
+      ],
+      value: ""
     };
-  },
+  }
 });
 </script>
